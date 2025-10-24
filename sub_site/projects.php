@@ -10,12 +10,12 @@
 <body>
     <nav class="nav">
         <div class="nav-inner">
-            <a href="main.php" class="logo">XV4BT3</a>
+            <a href="index.php" class="logo">XV4BT3</a>
             <div>
-                <a href="main.php">Home</a>
-                <a href="projects.php">Projects</a>
-                <a href="portfolio.php">Portfolio</a>
-                <a href="contact.php">Contact</a>
+                <a href="index.php">Home</a>
+                <a href="sub_site/projects.php">Projects</a>
+                <a href="sub_site/portfolio.php">Portfolio</a>
+                <a href="sub_site/contact.php">Contact</a>
             </div>
         </div>
     </nav>
