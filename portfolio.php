@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>XV4BT3 - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/noFilter.png" type="image/png">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="main.php" class="logo">XV4BT3</a>
+            <div>
+                <a href="main.php">Home</a>
+                <a href="projects.php">Projects</a>
+                <a href="portfolio.php">Portfolio</a>
+                <a href="contact.php">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h1>Portfolio</h1>
+        
+        <section>
+            <h2>Featured Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <h3>Project Title</h3>
+                    <p>Brief description of what you built and the impact it had.</p>
+                    <ul class="tech-stack">
+                        <li>PHP</li>
+                        <li>HTML/CSS</li>
+                        <li>Lua</li>
+                    </ul>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; <?php echo date('Y'); ?> XV4BT3 | Built with PHP, HTML & Lua
+    </footer>
+</body>
+</html>
