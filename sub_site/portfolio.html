@@ -1,86 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>XV4BT3 - Portfolio</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="icon" href="../assets/img/noFilter.png" type="image/png">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>XV4BT3 — Portfolio</title>
+  <link rel="icon" href="../assets/img/noFilter.png" type="image/png">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <nav class="nav">
-        <div class="nav-inner">
-            <a href="../index.html" class="logo">XV4BT3</a>
-            <div>
-                <a href="../index.html">Home</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </div>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="../index.html">
+        <img src="../assets/img/noFilter.png" alt="logo" class="logo-img">
+        <span>XV4BT3</span>
+      </a>
+      <nav class="main-nav">
+        <a href="../index.html">Home</a>
+        <a href="portfolio.html" aria-current="page">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Portfolio</h1>
+
+    <section class="portfolio-grid">
+      <article class="portfolio-item">
+        <h2>Administration System</h2>
+        <p>Admin tools with commands, autocomplete and permission checks (Luau).</p>
+
+        <div class="iframe-wrap">
+          <iframe src="https://streamable.com/ul7elu" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
-    </nav>
+        <p class="muted" style="margin-top:8px">If the video doesn't load, open it directly: <a href="https://streamable.com/ul7elu" target="_blank" rel="noopener">open in new tab</a>.</p>
 
-    <main>
-        <h1>Portfolio</h1>
-        
-        <section>
-            <h2>Featured Work</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <h3>Administration System</h3>
-                    <p>I've made an administration system with simple commands for managing users and permissions. It has autocomplete for users and command names.</p>
-                    <iframe 
-                        width="560" 
-                        height="315" 
-                        src="https://streamable.com/ul7elu" 
-                        frameborder="0" 
-                        allowfullscreen>
-                        </iframe>
-                    <ul class="tech-stack">
-                        <li>Luau</li>
-                    </ul>
-                </div>
-            </div>
+        <ul class="tech-stack"><li>Luau</li></ul>
+      </article>
 
-            <br>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <h3>Tug Of War</h3>
-                    <p>I've made a tug of war system for a big group. I did all the functionality shown in the video + some other things I couldn't show as I do not have an alt account.</p>
-                    <iframe 
-                        width="560" 
-                        height="315" 
-                        src="https://streamable.com/3nx4yf" 
-                        frameborder="0" 
-                        allowfullscreen>
-                        </iframe>
+      <article class="portfolio-item">
+        <h2>Tug Of War</h2>
+        <p>Tug mechanics, match flow, and scoring for a large-scale group game.</p>
 
-                    <ul class="tech-stack">
-                        <li>Luau</li>
-                    </ul>
-                </div>
-            </div>
-            <br>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <h3>Fight Club</h3>
-                    <p> A game I've been working with over 1.5 years with short breaks. I've coded a lot there, from the menu to mobile and console support. You name it, I made it.</p>
-                    <iframe 
-                        width="560" 
-                        height="315" 
-                        src="https://streamable.com/111mfj" 
-                        frameborder="0" 
-                        allowfullscreen>
-                        </iframe>
-                    <ul class="tech-stack">
-                        <li>Luau</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
+        <div class="iframe-wrap">
+          <iframe src="https://streamable.com/3nx4yf" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <p class="muted" style="margin-top:8px">If the video doesn't load, <a href="https://streamable.com/3nx4yf" target="_blank" rel="noopener">open in new tab</a>.</p>
 
-    <footer>
-        <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
-    </footer>
+        <ul class="tech-stack"><li>Luau</li></ul>
+      </article>
+
+      <article class="portfolio-item">
+        <h2>Fight Club</h2>
+        <p>Long-term project: menus, input handling, mobile & console features.</p>
+
+        <div class="iframe-wrap">
+          <iframe src="https://streamable.com/111mfj" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <p class="muted" style="margin-top:8px">If the video doesn't load, <a href="https://streamable.com/111mfj" target="_blank" rel="noopener">open in new tab</a>.</p>
+
+        <ul class="tech-stack"><li>Luau</li></ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>© <span id="yearP"></span> XV4BT3</small>
+    </div>
+  </footer>
+
+  <script>document.getElementById('yearP').textContent = new Date().getFullYear();</script>
 </body>
 </html>
